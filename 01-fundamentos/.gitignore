@@ -1,0 +1,24 @@
+# Ao que se refere ao IntelliJ (ignorar):
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Ao que se refere o Java (ignorar):
+*.class
+target/
+build/
+
+# Ao que se refere aos Logs (de sistema, sucesso, erro) (ignorar):
+*.log
+
+# Ao que se refere ao SO (ignorar):
+.DS_Store
+Thumbs.db
+
+# Ao que se refere ao ambiente, credenciais (.env) (ignorar):
+.env
+.env.local
+application-local.properties
+
