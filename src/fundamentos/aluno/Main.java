@@ -1,6 +1,6 @@
-package main.autonomo.alunos;
+package aluno;
 
-// Main com dois objetos criados
+// aluno.Main com dois objetos criados
 public class Main {
     public static void main(String[] args) {
         Aluno aluno1 = new Aluno("Rodrigo", 123, 10.0, 10.0);

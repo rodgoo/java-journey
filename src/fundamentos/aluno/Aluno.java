@@ -1,4 +1,4 @@
-package main.autonomo.alunos;
+package aluno;
 
 // Classe pública com atributos privados
 public class Aluno {

@@ -1,4 +1,4 @@
-package main.autonomo.carro;
+package carro;
 
 //Classe pública + atributos private
 public class Carro {

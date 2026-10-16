@@ -1,4 +1,4 @@
-package main.autonomo.biblioteca;
+package biblioteca;
 
 // Classes
 public class Livro {
@@ -17,7 +17,7 @@ public class Livro {
     }
 
     public void exibirInfo() {
-        System.out.println("Livro: " + titulo + "do autor: " + autor + " ano de publicação: " + anoPublicacao );
+        System.out.println("biblioteca.Livro: " + titulo + "do autor: " + autor + " ano de publicação: " + anoPublicacao );
     }
 
 

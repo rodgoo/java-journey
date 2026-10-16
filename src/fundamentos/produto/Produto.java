@@ -1,4 +1,4 @@
-package DesafioProduto;
+package produto;
 
 public class Produto {
     private String nome;
@@ -28,7 +28,7 @@ public class Produto {
 
     public void exibirProduto() {
         double total = calcularTotal();
-        System.out.println("Produto: " + nome + " | Categoria: " + categoria + " | Preço: " + preco + " | Quantidade: " + quantidade + " | Total: " + total);
+        System.out.println("produto1.Produto: " + nome + " | Categoria: " + categoria + " | Preço: " + preco + " | Quantidade: " + quantidade + " | Total: " + total);
 
     }
 
