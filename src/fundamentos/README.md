@@ -10,7 +10,7 @@ Minha jornada aprendendo Java do zero ao avançado do básico até Spring Boot.
 - [x] Construtores (vazio, completo, sobrecarga)
 - [x] `this` e `package`
 - [x] `main`
-- [ ] Getters e Setters
+- [x] Getters e Setters
 - [ ] Encapsulamento
 
 ### 02 — POO
