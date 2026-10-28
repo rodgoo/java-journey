@@ -11,11 +11,11 @@ Minha jornada aprendendo Java do zero ao avançado do básico até Spring Boot.
 - [x] `this` e `package`
 - [x] `main`
 - [x] Getters e Setters
-- [ ] Encapsulamento
+- [x] Encapsulamento
 
 ### 02 — POO
-- [ ] Herança
-- [ ] Polimorfismo
+- [x] Herança
+- [x] Polimorfismo
 - [ ] Classes abstratas
 - [ ] Interfaces
 
