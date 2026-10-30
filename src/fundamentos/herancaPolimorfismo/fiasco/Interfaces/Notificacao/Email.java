@@ -1,4 +1,4 @@
-package herancaPolimorfismo.fiasco.Interfaces;
+package herancaPolimorfismo.fiasco.Interfaces.Notificacao;
 
 public class Email implements Notificavel{
 
