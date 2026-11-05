@@ -38,10 +38,12 @@ package arrays.ArrayListaEmemoria;
             this.salario = salario;
         }
 
+        // Metodo para aumentar salário
         public void aumentarSalario(double porcentagem) {
             salario += salario * porcentagem / 100.0;
         }
 
+        // Volta de stream para string
         public String toString() {
             return id + ", " + nome + ", " + String.format("%.2f", salario);
         }
