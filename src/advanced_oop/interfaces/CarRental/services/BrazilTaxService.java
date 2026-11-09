@@ -1,6 +1,6 @@
-package advanced_oop.services;
+package advanced_oop.interfaces.CarRental.services;
 
-public class BrazilTaxService implements taxService {
+public class BrazilTaxService implements TaxService {
 
     public double tax (double amount) {
         if (amount <= 100) {

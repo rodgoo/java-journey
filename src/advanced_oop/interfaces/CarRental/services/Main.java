@@ -1,7 +1,7 @@
-package advanced_oop.services;
+package advanced_oop.interfaces.CarRental.services;
 
-import advanced_oop.interfaces.CarRental;
-import advanced_oop.interfaces.Vehicle;
+import advanced_oop.interfaces.CarRental.CarRental;
+import advanced_oop.interfaces.CarRental.Vehicle;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

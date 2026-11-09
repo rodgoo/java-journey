@@ -1,4 +1,4 @@
-package advanced_oop.interfaces;
+package advanced_oop.interfaces.CarRental;
 
 import java.time.LocalDateTime;
 

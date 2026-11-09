@@ -1,7 +1,7 @@
-package advanced_oop.services;
+package advanced_oop.interfaces.CarRental.services;
 
-import advanced_oop.interfaces.CarRental;
-import advanced_oop.interfaces.Invoice;
+import advanced_oop.interfaces.CarRental.CarRental;
+import advanced_oop.interfaces.CarRental.Invoice;
 
 import java.time.Duration;
 
@@ -9,11 +9,11 @@ public class RentalService {
     private double pricePerDay;
     private double pricePerHour;
 
-    // Put the Interface here (taxService) -- Generical interface
-    private taxService taxService;
+    // Put the Interface here (TaxService) -- Generical interface
+    private TaxService taxService;
 
     // Constructors (put these when run)
-    public RentalService(double pricePerDay, double pricePerHour, taxService taxService) {
+    public RentalService(double pricePerDay, double pricePerHour, TaxService taxService) {
         this.pricePerDay = pricePerDay;
         this.pricePerHour = pricePerHour;
         this.taxService = taxService;
