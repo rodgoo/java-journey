@@ -1,10 +1,12 @@
-package herancaPolimorfismo.corporativo.domain;
+package fundamentos.instance;
 
-public non-sealed class Vendedor extends Colaborador {
+public class Vendedor extends Colaborador {
     private double percentualPorVendas;
     private double qtdVendas;
 
     public Vendedor(String codigo, String nome, String endereco, int idade, double salario, double percentualPorVendas, double qtdVendas) {
+
+        // super acessando atributos da classe pai (a superclasse).
         super(codigo, nome, endereco, idade, salario);
         this.percentualPorVendas = percentualPorVendas;
         this.qtdVendas = qtdVendas;
@@ -26,11 +28,12 @@ public non-sealed class Vendedor extends Colaborador {
         return "VN: " + this.codigo;
     }
 
-    @Override
+    // Construtor com sobrecarga
     public double getSalarioCompleto() {
         return this.salario + ((qtdVendas * percentualPorVendas) / 100);
     }
-
+    public double getSalarioCompleto(double extra) {return getSalarioCompleto() + extra;}
+    public double getSalarioCompleto(int extra){return 0;}
 
     public double getQtdVendas() {
         return qtdVendas;
@@ -39,4 +42,6 @@ public non-sealed class Vendedor extends Colaborador {
     public void setQtdVendas(double qtdVendas) {
         this.qtdVendas = qtdVendas;
     }
+
+
 }

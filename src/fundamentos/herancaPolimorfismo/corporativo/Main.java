@@ -1,4 +1,4 @@
-package herancaPolimorfismo.corporativo.domain;
+package fundamentos.herancaPolimorfismo.corporativo;
 
 public class Main {
     public static void main(String[] args) {

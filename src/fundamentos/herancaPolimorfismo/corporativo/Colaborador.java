@@ -1,4 +1,4 @@
-package herancaPolimorfismo.corporativo.domain;
+package fundamentos.herancaPolimorfismo.corporativo;
 
 // Extendendo a classe Colaborador
 // Formato selado (permitindo acesso apenas para Gerente e Vendedor) + abstrato

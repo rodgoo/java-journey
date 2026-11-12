@@ -1,8 +1,8 @@
-package herancaPolimorfismo.corporativo.domain;
+package fundamentos.instance;
 
 // Extendendo a classe Colaborador
 // Acesso permitido a qualquer pessoa ali com non-sealed
-public non-sealed class Gerente extends Colaborador {
+public class Gerente extends Colaborador {
 
     private String login;
     private String senha;
@@ -49,7 +49,6 @@ public non-sealed class Gerente extends Colaborador {
         this.comissao_gerente = comissao_gerente;
     }
 
-    @Override
     public double getSalarioCompleto() {
         return this.salario + this.comissao_gerente;
     }

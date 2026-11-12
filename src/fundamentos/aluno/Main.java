@@ -1,6 +1,6 @@
 package aluno;
 
-// aluno.Main com dois objetos criados
+// aluno.advanced_oop.MainKeyword com dois objetos criados
 public class Main {
     public static void main(String[] args) {
         Aluno aluno1 = new Aluno("Rodrigo", 123, 10.0, 10.0);
